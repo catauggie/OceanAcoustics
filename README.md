@@ -6,11 +6,11 @@
 
 Lunka4_mar27.mat -> Lunka_4.mat
 
-Lunka_mar29.mat -> Lunka_3.mat
+Lunka_mar29.mat -> Lunka_3.mat #данные плохо скорреллированны
 
 Lunka0_mar28.mat -> Lunka_6.mat
 
-Lunka0_mar29.mat -> Lunka_7.mat
+Lunka0_mar29.mat -> Lunka_5.mat
 
 Lunka1_mar27.mat -> Lunka_2.mat
 
