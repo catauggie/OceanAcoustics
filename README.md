@@ -22,5 +22,7 @@ Lunka1_mar27.mat -> Lunka_2.mat
 Lunka4_ShortArray_mar27.mat
 
 2) Программа для построения графиков скорости звука в океане по разных формулам:
+
    a) по формуле (1.1) из Бреховских
+   
    б) по формуле Юнеско http://www.tsuchiya2.org/soundspeed/unesco.htm
