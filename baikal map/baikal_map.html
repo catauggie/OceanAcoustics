@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e956bc5a69dac4544298fe277466178f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e956bc5a69dac4544298fe277466178f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e956bc5a69dac4544298fe277466178f = L.map(
+                "map_e956bc5a69dac4544298fe277466178f",
+                {
+                    center: [52.003205459564924, 105.35677981004119],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c33899d9d4cd3fd9befee784b140f4e7 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e956bc5a69dac4544298fe277466178f);
+        
+    
+            var circle_marker_0dc8ce8c652d63aced86028ab1883191 = L.circleMarker(
+                [52.0084760338068, 105.3697749786079],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e956bc5a69dac4544298fe277466178f);
+        
+    
+        var popup_5539e4ea72e42e4607317ce43da4c6c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2c9981cf353d0d9f82fdd92d7973300 = $(`<div id="html_d2c9981cf353d0d9f82fdd92d7973300" style="width: 100.0%; height: 100.0%;">ИСТОЧНИК2</div>`)[0];
+                popup_5539e4ea72e42e4607317ce43da4c6c9.setContent(html_d2c9981cf353d0d9f82fdd92d7973300);
+            
+        
+
+        circle_marker_0dc8ce8c652d63aced86028ab1883191.bindPopup(popup_5539e4ea72e42e4607317ce43da4c6c9)
+        ;
+
+        
+    
+    
+            var circle_marker_e23ad658caa63a0831b32a5e0484829d = L.circleMarker(
+                [51.98767080903053, 105.32037447206676],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e956bc5a69dac4544298fe277466178f);
+        
+    
+        var popup_b5997a675cca889c7258ffd0d8ffba4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad3ff18f784f563a1ef109085d1097b1 = $(`<div id="html_ad3ff18f784f563a1ef109085d1097b1" style="width: 100.0%; height: 100.0%;">ЛУНКА</div>`)[0];
+                popup_b5997a675cca889c7258ffd0d8ffba4d.setContent(html_ad3ff18f784f563a1ef109085d1097b1);
+            
+        
+
+        circle_marker_e23ad658caa63a0831b32a5e0484829d.bindPopup(popup_b5997a675cca889c7258ffd0d8ffba4d)
+        ;
+
+        
+    
+    
+            var circle_marker_67f79ef63ecb7e117ddfd84ba78fe53c = L.circleMarker(
+                [51.98608445003629, 105.32151457853615],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e956bc5a69dac4544298fe277466178f);
+        
+    
+        var popup_fcd0ee6688f547e220f5093c8fd1c1ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3e6bb524c47cf4050e89a0563b8b4e8 = $(`<div id="html_d3e6bb524c47cf4050e89a0563b8b4e8" style="width: 100.0%; height: 100.0%;">ЛУНКА 0</div>`)[0];
+                popup_fcd0ee6688f547e220f5093c8fd1c1ed.setContent(html_d3e6bb524c47cf4050e89a0563b8b4e8);
+            
+        
+
+        circle_marker_67f79ef63ecb7e117ddfd84ba78fe53c.bindPopup(popup_fcd0ee6688f547e220f5093c8fd1c1ed)
+        ;
+
+        
+    
+    
+            var circle_marker_a6cbff9f226a9d622456e92e269605b1 = L.circleMarker(
+                [52.01591497287154, 105.37850498221815],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e956bc5a69dac4544298fe277466178f);
+        
+    
+        var popup_01b9d87b07202f97438037907f2b3f59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59e842f58d5d464f3d2d430b0b77230d = $(`<div id="html_59e842f58d5d464f3d2d430b0b77230d" style="width: 100.0%; height: 100.0%;">ЛУНКА 1</div>`)[0];
+                popup_01b9d87b07202f97438037907f2b3f59.setContent(html_59e842f58d5d464f3d2d430b0b77230d);
+            
+        
+
+        circle_marker_a6cbff9f226a9d622456e92e269605b1.bindPopup(popup_01b9d87b07202f97438037907f2b3f59)
+        ;
+
+        
+    
+    
+            var circle_marker_f81caf04ba40b02d8842bc2cc71e2d37 = L.circleMarker(
+                [52.01788103207946, 105.393730038777],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "Red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_e956bc5a69dac4544298fe277466178f);
+        
+    
+        var popup_72ec576fcb573e3771be5472e2b1c905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5cf5618eb4ade83b8e8ba3be32a6cab = $(`<div id="html_b5cf5618eb4ade83b8e8ba3be32a6cab" style="width: 100.0%; height: 100.0%;">ЛУНКА 4</div>`)[0];
+                popup_72ec576fcb573e3771be5472e2b1c905.setContent(html_b5cf5618eb4ade83b8e8ba3be32a6cab);
+            
+        
+
+        circle_marker_f81caf04ba40b02d8842bc2cc71e2d37.bindPopup(popup_72ec576fcb573e3771be5472e2b1c905)
+        ;
+
+        
+    
+</script>
+</html>
